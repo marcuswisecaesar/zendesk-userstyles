@@ -1,2 +1,2 @@
 # zendesk-userstyles
-Custom Stylus userstyles for Zendesk Enhancement Sute (ZES)
+Custom Stylus userstyles for Zendesk Enhancement Suite (ZES)
