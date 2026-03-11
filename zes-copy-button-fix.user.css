@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           ZES Copy Button Fix
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Forces the ZES copy button to always appear below message text in Zendesk tickets
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("a8c.zendesk.com") {
+    [data-test-id="omni-log-item-message"] {
+          display: flex !important;
+          flex-direction: column !important;
+    }
+
+  [data-zes-id="message-buttons"] {
+        order: 99 !important;
+  }
+}
